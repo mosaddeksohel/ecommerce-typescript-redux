@@ -9,7 +9,7 @@ const Header = () => {
           <img src={logo} alt="" />
         </div>
         <div className="flex">
-          <input className="p-2 border-none w-full" type="text" />
+          <input className="p-2 w-full border-gray-200" type="text" />
           <button>search</button>
         </div>
       </div>
