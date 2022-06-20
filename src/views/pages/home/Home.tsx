@@ -4,7 +4,7 @@ import Dslider from "views/components/custom/Dslider";
 import ProductCollection from "views/components/home/ProductCollection";
 
 const Home = () => {
-  const [products, setProducts] = useState<[] | any[]>([]);
+  const [products, setProducts] = useState<[] | IProduct[]>([]);
 
   useEffect(() => {
     ProductService.getAllProduct()
